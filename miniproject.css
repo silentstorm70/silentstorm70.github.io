@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+overflow-x:hidden;	
+}
+
+
+#wrapper{
+	font-family: 'Raleway', sans-serif;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+
+
+header{
+	width: 100%;
+	height: 90vh;
+	background-image:url(images/outofthisworld-01.png);
+	background-position:-250px -200px;
+	background-repeat:no-repeat;
+	background-size:fill;
+	padding-right: 0px;
+	padding-bottom:0px;
+	padding-top:0px;
+	margin:0px;
+	overflow:hidden;
+}
+
+#paragraph{
+	
+	height:500px;
+	width:100%;
+	font-family: 'Raleway', sans-serif;
+	padding-left:50px;
+	padding-right:60px;
+	overflow:hidden;
+	margin-top:50px;
+}
+
+#footer{
+	height:200px;
+	width:100%;
+	font-family: 'Raleway', sans-serif;
+	padding:0px;
+	overflow-x:hidden;
+	margin:0px;
+	background-image:url(images/universe-2742113_1920.jpg)
+}
+
+h1{
+	width:50%;
+	margin-left: 50px;
+	margin-top: 50px;
+	font-size: 100px;
+}
+
+h5{
+	width:50%;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+/*tabs*/
+.tab {
+    overflow: hidden;
+    background-color: white;
+	width:700px;
+}
+
+/*styling the buttons*/
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Color change when hovering */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* active link */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* styling the content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+	width:auto;
+}
