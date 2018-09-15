@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="miniproject.css" rel="stylesheet" type="text/css">
+<title>#worlddominationsquad</title>
+</head>
+
+<body>
+	<div id= "wrapper">
+		<header>
+			<h1>Welcome 
+			<br>Fellow 
+			<br>Human 
+			<br>Beings!
+			</h1>
+		</header>
+	</div>
+	<div id="paragraph">
+		<h2>Project information</h2>
+		
+<div class="tab">
+  <button class="tablinks" onclick="openinformation(event, 'Projectideas')" id="defaultOpen">Project Ideas</button>
+  <button class="tablinks" onclick="openinformation(event, 'Projectnotes')">Project notes</button>
+  <button class="tablinks" onclick="openinformation(event, 'MeetingTimes')">Meeting Times</button>
+</div>
+
+<div id="Projectideas" class="tabcontent">
+  <h3>Project ideas</h3>
+  <p>here will be a discription of the project</p>
+</div>
+
+<div id="Projectnotes" class="tabcontent">
+  <h3>Project notes</h3>
+  <p>Any requirements and needed resources will be here. Also any observations or problems that will need to be solved</p> 
+</div>
+
+<div id="MeetingTimes" class="tabcontent">
+  <h3>Meeting summeries</h3>
+  <p>Meeting Summeries will be posted here with a discription of what was completed/decided.</p>
+</div>
+
+
+<script>
+function openinformation(evt, infoName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(infoName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</div>
+
+<div id="footer">
+	<h5> Project collaborators:
+	<br><br>Cassandra Brent
+	<br>Anirban Biswas
+	<br>Nick Godeke</h5>
+</div>
+
+</body>
+</html>
+
+
