@@ -30,13 +30,14 @@ header{
 
 #paragraph{
 	
-	height:500px;
+	height:600px;
 	width:100%;
 	font-family: 'Raleway', sans-serif;
-	padding-left:50px;
+	padding-left:10px;
 	padding-right:60px;
-	overflow:hidden;
+	overflow:scroll;
 	margin-top:50px;
+	margin-bottom:50px;
 }
 
 #footer{
@@ -97,7 +98,24 @@ h5{
     padding: 6px 12px;
     border-top: none;
 	width:auto;
+	height:auto;
+	
 }
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
 @media (max-width: 375px){
 
 
@@ -117,13 +135,14 @@ header{
 
 #paragraph{
 	
-	height:500px;
+	height:600px;
 	width:100%;
 	font-family: 'Raleway', sans-serif;
 	padding-left:10px;
 	padding-right:60px;
-	overflow:hidden;
+	overflow:scroll;
 	margin-top:50px;
+	margin-bottom:50px;
 }
 
 #footer{
@@ -185,6 +204,7 @@ h5{
     padding: 6px 12px;
     border-top: none;
 	width:auto;
+	height:auto;
 }
 	
 	
