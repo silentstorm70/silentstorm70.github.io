@@ -1,0 +1,119 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Financial District</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Audiowide|Glegoo:400,700|Montserrat+Alternates:100i,300,400,700,900i" rel="stylesheet">	
+</head>
+
+<body>
+	
+<div class="topnav" id="myTopnav">
+	<a href="index.html" class="li">Home</a> 
+	<a href="overview.html" class="li">Overview</a> 
+	<a href="residential.html" class="li">Residential Districts</a> 
+	<a href="university.html" class="li">University District</a> 
+	<a href="rural.html" class="li">Rural Districts</a> 
+	<a href="oldtown.html" class="li">Old Town District</a>
+	<a href="#financial" class="active">Financial District</a>
+	<a href="quiz.html" class="li">Test Yourself</a> 
+	<a href="javascript:void(0);" class="icon" onClick="myFunction()"> <em class="fa fa-bars"></em> </a>
+	</div>
+	
+<div class="financialsplash">
+<div class="contentmaps">
+	<!--I think for places with more information having drop down menus would be good or you can have a popup for each supsection -->
+	<!--also just a thought I think since its supposed to be like gueyre even though we dont have a ton of time maybe  -->
+	<!--having a quiz elemnt where they have to choose the right way to deal with it. -->
+	<!--Even if it wash just a static view. -->
+		<h1>Financial</h1>
+		<p>Geography: This district encompasses the largest highway in the city, US HWY 231. Technological Infrastructure here is more robust
+		than it is in older and more residential areas of the city. </p>
+		
+		
+		<p> <a href="#openModal1" class="li">Click for Available Technologies</a>  </p>
+		<p> <a href="#openModal2" class="li">Click for Key Targets</a>  </p>
+		<p> <a href="#openModal3" class="li">Click for Suggested Strategies</a>  </p>
+		<p> <a href="#openModal4" class="li">Click for Possible Defenses</a>  </p>
+		
+		
+		
+	</div>	
+	
+</div>	
+	
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+	
+	
+	
+	
+	
+	
+	<div id="openModal1" class="modalDialog" >
+		<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<p>Available Technologies: </p>
+		<ul class="b">
+			<li>  Traffic Lights</li>
+			<li>  Street Lamps</li>
+			<li>  Electric Billboard</li>
+			<li>  Traffic Cameras</li>
+		</ul>
+		</div>
+		</div>
+		
+		<div id="openModal2" class="modalDialog">
+		<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<p>Key Targets: </p>
+		<ul class="b">
+			<li>  Troy Hospital</li>
+			<li>  Walmart</li>
+			<li>  Numerous Gas Stations</li>
+			<li>  Central Water Tower</li>
+			<li>  Small Power Substation</li>
+		</ul>
+		</div>
+		</div>
+		
+		<div id="openModal3" class="modalDialog" >
+		<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<p>Suggested Strategies: </p>
+		<ul class="b">
+			<li>Denial of Service aimed at bringing down PoS Systems, impacting economy (likely Walmart, grocery stores)</li>
+			<li>Denial of Service aimed at medical systems, denying access to patient information, impacting healthcare (hospital)</li>
+			<li>Potential Man-in-Middle attacks at businesses with public WiFi access (Coffee shops, restaraunts, Walmart)</li>
+		</ul>
+		</div> </div>
+		
+		<div id="openModal4" class="modalDialog" >
+		<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<p>Possible Defenses: </p>
+		<ul class="b">
+			<li>  Occassional Police Patrols</li>
+			<li>  High Traffic Area - Lots of eyes, but easy to blend in</li>
+			<li>  Traffic Cameras</li>
+		</ul>
+		</div> </div>	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>

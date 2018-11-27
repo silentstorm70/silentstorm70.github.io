@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>City of Troy</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Audiowide|Glegoo:400,700|Montserrat+Alternates:100i,300,400,700,900i" rel="stylesheet">	
+</head>
+
+<body>
+	
+<div class="topnav" id="myTopnav">
+	<a href="index.html" class="li">Home</a> 
+	<a href="#home" class="active">Overview</a> 
+	<a href="residential.html" class="li">Residential Districts</a> 
+	<a href="university.html" class="li">University District</a> 
+	<a href="rural.html" class="li">Rural Districts</a> 
+	<a href="oldtown.html" class="li">Old Town District</a>
+	<a href="financial.html" class="li">Financial District</a>
+	<a href="quiz.html" class="li">Test Yourself</a> 
+	<a href="javascript:void(0);" class="icon" onClick="myFunction()"> <em class="fa fa-bars"></em> </a>
+	</div>
+	
+<div class="overviewsplash">
+<div class="contentmaps">
+	<!--I think for places with more information having drop down menus would be good or you can have a popup for each supsection -->
+	<!--also just a thought I think since its supposed to be like gueyre even though we dont have a ton of time maybe  -->
+	<!--having a quiz elemnt where they have to choose the right way to deal with it. -->
+	<!--Even if it wash just a static view. -->
+		<h1>Troy, AL</h1>
+		<p>Population: ~19,000 People</p>
+		<p>Area: 28.29 Miles<sup>2</sup></p>
+		<p>Mayor: <a href="http://www.troyal.gov/content/6203/6231/6414/default.aspx" style="width:50%;">Jason Reeves</a></p>
+		<p>Key Locations:
+		<ul class="b">
+			<li>  Troy Hospital</li>
+			<li>  Troy University</li>
+			<li>  Troy Police Department</li>
+			<li>  Troy Cable</li>
+		</ul>
+	</p>
+	</div>	
+	
+</div>	
+	
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+	
+	
+</body>
+</html>
